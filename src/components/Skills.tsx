@@ -23,24 +23,18 @@ const Skills = () => {
       skills: ["Node.js", "PostgreSQL", "MongoDB", "Redis", "Express", "GraphQL"],
       color: "text-green-400"
     },
-    // {
-    //   title: "UI/UX Design",
-    //   icon: Palette, 
-    //   skills: ["Figma", "Adobe XD", "Design Systems", "Prototyping", "User Research"],
-    //   color: "text-purple-400"
-    // },
     {
       title: "Web Technologies",
       icon: Globe,
       skills: ["REST APIs", "GraphQL", "WebSocket", "PWA", "SEO", "Performance"],
       color: "text-orange-400"
     },
-    // {
-    //   title: "Mobile Development",
-    //   icon: Smartphone,
-    //   skills: ["React Native", "Flutter", "iOS", "Android", "Cross-platform"],
-    //   color: "text-pink-400"
-    // },
+    {
+      title: "Mobile Development",
+      icon: Smartphone,
+      skills: ["React Native", "Flutter", "iOS", "Android", "Cross-platform"],
+      color: "text-pink-400"
+    },
     {
       title: "DevOps & Tools",
       icon: GitBranch,
@@ -58,7 +52,13 @@ const Skills = () => {
       icon: Shield,
       skills: ["Authentication", "HTTPS", "Code Reviews", "Testing"],
       color: "text-red-400"
-    }
+    },
+    {
+      title:"Async Caching",
+      icon: Database,
+      skills: ["Redis", "BullMQ", "Background Jobs", "Rate Limiting"],
+      color: "text-green-400"
+    },
   ];
 
   return (
